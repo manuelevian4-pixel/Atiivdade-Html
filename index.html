@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Blog de Tecnologia</h1>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#artigos">Artigos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Introdução ao Python</h2>
+            <p>Python é uma linguagem de programação simples e poderosa, muito usada em ciência de dados, automação e desenvolvimento web.</p>
+            <img src="https://via.placeholder.com/400x200" alt="Logo da linguagem Python">
+        </article>
+
+        <article>
+            <h2>O que é HTML semântico</h2>
+            <p>HTML semântico usa tags que descrevem o significado do conteúdo, como header, main e footer, melhorando acessibilidade e SEO.</p>
+            <img src="https://via.placeholder.com/400x200" alt="Ilustração de estrutura HTML semântica">
+        </article>
+    </main>
+
+    <aside>
+        <h2>Inscreva-se na newsletter</h2>
+        <form method="get">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" minlength="3" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="18" max="120" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferências</legend>
+
+                <label for="assunto">Assunto de interesse:</label>
+                <select id="assunto" name="assunto">
+                    <option value="python">Python</option>
+                    <option value="html-css">HTML e CSS</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+
+                <label for="termos">
+                    <input type="checkbox" id="termos" name="termos" required>
+                    Aceito os termos de uso
+                </label>
+            </fieldset>
+
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </aside>
+
+    <footer>
+        <p>&copy; 2026 Meu Blog. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
